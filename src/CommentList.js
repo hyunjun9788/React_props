@@ -1,11 +1,10 @@
 import React from 'react'
 import Comment from "./Comment";
 
-function CommentList(props){
+function CommentList(props) {
     return (
-
         <div>
-            <Comment/>
+            <Comment name={'남현준'} comment={'안녕하세요, 남현준입니다.'}/>
         </div>
     )
 }
